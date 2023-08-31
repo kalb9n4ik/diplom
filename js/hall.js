@@ -85,7 +85,7 @@ function showInfo(data){
 	// listener button booking
 	btn.addEventListener('click', () => {
 		if(writeChoiceChairs()){
-			window.open('payment.html')
+			window.open('payment.html', '_self')
 		}
 	})
 
